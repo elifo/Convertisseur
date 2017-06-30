@@ -1,0 +1,1204 @@
+ 
+ ****************************************************************************
+ ****************************************************************************
+ ****************************************************************************
+ **************************                          ************************
+ **************************     SEM - 3D VERSION     ************************
+ **************************                          ************************
+ ****************************************************************************
+ ****************************************************************************
+ ****************************************************************************
+ 
+ 
+ 
+ ****************************************************************************
+ ********************                                     *******************
+ ********************      RUN PREPARATION : INPUT DATA,  *******************
+ ********************     ELEMENTAL AND GLOBAL MACHINERY  *******************
+ ********************                                     *******************
+ ****************************************************************************
+ 
+ --> CREATING OUTPUT DIRECTORIES
+        Warning: path '.' already exists
+        Warning: path './mat' already exists
+ --> READING INPUT PARAMETERS AND DATA
+Configuration SEM
+Schema en acceleration: 0
+Schema en vitesse: 1
+Duree simulation: 0.300000
+Newmark: alpha=0.500000 beta=0.500000 gamma=1.000000
+Fichier maillage: 'mesh4spec'
+Modele : 0
+Anisotropy : 0
+Fichier materiau: 'material.input'
+Sauv. Traces : 1
+Sauv. Snap   : 0
+Fichier stations: '(null)'
+Snap interval : 1.000000
+Snap selection : 0x124e8c0
+out variables : (0,0,0,1,1,1,0,0,0,0,0)
+Nonlinear analysis : 0
+ Attenuation SLS =           0
+          period =  0.000000000000000E+000
+            band =  0.000000000000000E+000  0.000000000000000E+000
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+   --> Propagation in solid media.
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ Mesh read correctly, elements per proc:
+00000:  6658  6461  6294  6675  6293  6527  6662  6469
+ 
+ 
+00008:  6455  6668  6667  6676  6300  6650  6518  6501
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+00016:  6459  6296  6601  6293  6378  6565  6326  6667
+00024:  6675  6650  6359  6636  6293  6657  6405  6408
+00032:  6424  6433  6614  6372  6364  6359  6467  6452
+00040:  6676  6582  6526  6661  6566  6403  6636  6293
+00048:  6321  6321  6659  6358  6484  6451  6537  6655
+00056:  6343  6634  6515  6454  6466  6299  6629  6301
+00064:  6494  6470  6487  6596  6396  6374  6675  6387
+00072:  6676  6546  6642  6523  6296  6368  6675  6673
+00080:  6487  6569  6504  6293  6532  6360  6516  6392
+00088:  6368  6551  6390  6395  6293  6672  6507  6364
+00096:  6366  6352  6461  6352  6293  6432  6309  6662
+00104:  6673  6668  6676  6293  6300  6512  6521  6518
+00112:  6676  6540  6293  6293  6401  6497  6497  6516
+00120:  6622  6635  6488  6508  6315  6636  6346  6602
+00128:  6293  6295  6498  6373  6648  6620  6293  6449
+00136:  6614  6334  6297  6597  6356  6379  6382  6293
+00144:  6653  6657  6309  6661  6646  6619  6507  6428
+00152:  6355  6633  6415  6415  6676  6293  6676  6294
+00160:  6549  6555  6497  6410  6478  6520  6440  6625
+00168:  6296  6294  6423  6447  6303  6296  6301  6676
+00176:  6305  6640  6672  6675  6308  6307  6554  6360
+00184:  6294  6347  6504  6489  6420  6676  6422  6299
+00192:  6565  6616  6676  6414  6293  6642  6440  6608
+00200:  6518  6566  6311  6293  6298  6642  6657  6651
+00208:  6641  6676  6293  6410  6635  6641  6401  6652
+ read material file : ./material.input
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ --> DEFINING A GLOBAL NUMBERING FOR COLLOCATION POINTS
+ --> ALLOCATING FIELDS
+ INFO - solid domain :         6658  elements and      1482547  ngll pts
+ --> COMPUTING SHAPE FUNCTIONS AND THEIR DERIVATIVES
+ --> COMPUTING MASS MATRIX AND INTERNAL FORCES COEFFICIENTS 
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ dt_loc  7.743847095484487E-003
+ f_max  0.502606836687832     
+ For Courant =  0.300000000000000       the time step is now 
+  7.743847095484487E-003  2.323154128645346E-003
+ --> COMPUTING SOURCE PARAMETERS 
+ DRIVE_SEM source loop nsrc =            0
+ EXTENDED FAULT
+ DRIVE_SEM source loop nsrc =            1
+ EXTENDED FAULT
+ DRIVE_SEM source loop nsrc =            2
+ EXTENDED FAULT
+ 
+ 
+ ****************************************************************************
+ *****************                                          *****************
+ *****************  INITIALIZATION OF IN/OUT INTERACTIONS:  *****************
+ *****************     RESTART, SNAPSHOTS, RECEIVERS        *****************
+ *****************                                          *****************
+ ****************************************************************************
+ 
+Capteur:SC3D_0002 on proc   101 in elem    324 at   1.0000, -0.9973,  1.0000 in domain 4
+Capteur:SC3D_0001 on proc    94 in elem    420 at  -0.9973,  1.0000,  1.0000 in domain 4
+ 
+ 
+ ****************************************************************************
+ ************************                                 *******************
+ ************************        TIME STEPPING            *******************
+ ************************                                 *******************
+ ****************************************************************************
+ 
+ --> Duration of the run:   0.300000000000000     
+ --> Time step size:   2.323154128645346E-003
+ --> Number of time steps:          129
+ 
+Capteur:SC3D_0000 on proc   101 in elem    312 at   1.0000,  1.0000,  1.0000 in domain 4
+  Iteration  =             0     temps  =   0.000000000000000E+000
+  Iteration  =            20     temps  =   4.646308257290691E-002
+  Iteration  =            40     temps  =   9.292616514581391E-002
+  Iteration  =            60     temps  =   0.139389247718721     
+  Iteration  =            80     temps  =   0.185852330291628     
+  Iteration  =           100     temps  =   0.232315412864534     
+  Iteration  =           120     temps  =   0.278778495437441     
+--> SEM : protection at iteration and time :     128   0.297364
+ --> SEM INTERRUPTED, iteration=          128
+ --> DEALLOCATING DOMAIN.
+ fin du calcul sur processeurs 

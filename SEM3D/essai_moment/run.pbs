@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PBS -S /bin/bash
+#PBS -N run_REF
+#PBS -o output_run.txt
+#PBS -j oe
+#PBS -l walltime=04:00:00
+#PBS -l select=9:ncpus=24:mpiprocs=24
+#PBS -P omaha
+#PBS -m e -M elif.oral@centralesupelec.fr 
+
+#chargement des modules
+module purge
+module load intel-compilers/16.0.3
+module load intel-mkl/11.3.3
+module load intel-mpi/5.1.2
+module load phdf5/1.8.17-IntelMPI
+module load python/2.7.12
+module load fftw/3.3.4
+
+#On se place dans le reportoire depuis lequel le job a ete soumis
+cd $PBS_O_WORKDIR
+
+mpirun -np 216 /home/orale/SEM/build/SEM3D/sem3d.exe

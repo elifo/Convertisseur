@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+  <Grid name="comms.0003" GridType="Collection" CollectionType="Spatial">
+    <Grid name="comms.0003.0000.e">
+      <Topology Type="Quadrilateral" NumberOfElements="218">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="218 4">
+mesh4spec.0003.h5:/Proc0000/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="218">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="218">
+mesh4spec.0003.h5:/Proc0000/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0002.e">
+      <Topology Type="Quadrilateral" NumberOfElements="169">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="169 4">
+mesh4spec.0003.h5:/Proc0001/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="169">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="169">
+mesh4spec.0003.h5:/Proc0001/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0004.e">
+      <Topology Type="Quadrilateral" NumberOfElements="261">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="261 4">
+mesh4spec.0003.h5:/Proc0002/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="261">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="261">
+mesh4spec.0003.h5:/Proc0002/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0005.e">
+      <Topology Type="Quadrilateral" NumberOfElements="320">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="320 4">
+mesh4spec.0003.h5:/Proc0003/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="320">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="320">
+mesh4spec.0003.h5:/Proc0003/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0009.e">
+      <Topology Type="Quadrilateral" NumberOfElements="218">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="218 4">
+mesh4spec.0003.h5:/Proc0004/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="218">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="218">
+mesh4spec.0003.h5:/Proc0004/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0011.e">
+      <Topology Type="Quadrilateral" NumberOfElements="104">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="104 4">
+mesh4spec.0003.h5:/Proc0005/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="104">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="104">
+mesh4spec.0003.h5:/Proc0005/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0016.e">
+      <Topology Type="Quadrilateral" NumberOfElements="280">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="280 4">
+mesh4spec.0003.h5:/Proc0006/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="280">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="280">
+mesh4spec.0003.h5:/Proc0006/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0017.e">
+      <Topology Type="Quadrilateral" NumberOfElements="294">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="294 4">
+mesh4spec.0003.h5:/Proc0007/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="294">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="294">
+mesh4spec.0003.h5:/Proc0007/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0003.0018.e">
+      <Topology Type="Quadrilateral" NumberOfElements="18">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="18 4">
+mesh4spec.0003.h5:/Proc0008/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8071 3">
+mesh4spec.0003.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="18">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="18">
+mesh4spec.0003.h5:/Proc0008/faces_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+  </Grid>
+  </Domain>
+</Xdmf>

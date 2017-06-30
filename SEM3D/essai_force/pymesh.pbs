@@ -1,0 +1,60 @@
+#!/bin/bash
+
+#PBS -S /bin/bash
+#PBS -N wp1_hsp1a 
+#PBS -o po_1.txt
+#PBS -j oe
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=1:mem=20gb
+#PBS -q haswellq
+#PBS -P omaha
+#PBS -m e -M sara.touhami@centralesupelec.fr 
+
+# chargement des modules
+module purge
+module load intel-compilers/16.0.3
+module load intel-mkl/11.3.3
+module load intel-mpi/5.1.2
+module load phdf5/1.8.17-IntelMPI
+module load python/2.7.12
+module load fftw/3.3.4
+
+# =======================  MESH GENERATION  ==============================
+
+Mesh_Choice='p'     # what kind of mesh generate ? p-> use python scripte
+N_PROC=1            # how many proc ?
+Run_Sem='x'         # did you need to run Sem3D after mesh generation ?
+
+# ===========================================================================
+msh_file='wp1_hsp1a.msh'
+Sem_top_dir='SEM'
+msh_file_dir='/workdir/touhamis/source-etendue-test'
+# ===========================================================================
+
+cd $PBS_O_WORKDIR
+if  (test $Mesh_Choice = "p") then
+   Outputfile='wp1_hsp1a.h5'
+   $HOME/$Sem_top_dir/sem-ecp/pysem/mt_import_gmsh $msh_file_dir/$msh_file $Outputfile
+#   mpirun -np 1 $HOME/$Sem_top_dir/build/MESH/sem_part_h5 $N_PROC $Outputfile 
+else
+   mpirun -np 1 $HOME/$Sem_top_dir/build/MESH/mesher < mesh.input
+fi
+
+# =====================  Move mesh data in sem/ directory ==================
+
+#mkdir sem
+#mv mesh4spec.* sem/
+#if  (test $Mesh_Choice = "p") then
+#   mv PythonHDF5* sem/
+#fi
+
+# ============================ SEM JOB SUBMITION ===========================
+
+#if (test $Run_Sem = "o") then
+#    mpirun -np $N_PROC  $HOME/$Sem_top_dir/build/SEM3D/sem3d.exe
+#    rm -fr mat/
+#    rm -fr prot/
+#fi
+# ===========================================================================
+
+ 

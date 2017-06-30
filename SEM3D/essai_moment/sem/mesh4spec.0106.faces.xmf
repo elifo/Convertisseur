@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid name="faces.0106">
+      <Topology Type="Quadrilateral" NumberOfElements="21434">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="21434 4">
+mesh4spec.0106.h5:/faces_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="8159 3">
+mesh4spec.0106.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+      <Attribute Name="FDom" Center="Cell" AttributeType="Scalar" Dimensions="21434">
+        <DataItem Format="HDF" Datatype="Integer" Dimensions="21434">
+mesh4spec.0106.h5:/faces_dom
+        </DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

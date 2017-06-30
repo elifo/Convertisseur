@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#PBS -S /bin/bash
+#PBS -N DENEME_STEP_BIR
+#PBS -o output_STEP_BIR.txt
+#PBS -j oe
+#PBS -P omaha
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=1:mpiprocs=1
+#PBS -m e -M elif.oral@centralesupelec.fr
+
+
+
+# On se place dans le repertoire depuis lequel le job a ete soumis
+cd $PBS_O_WORKDIR
+
+mpirun -np 1 /workdir/orale/CODE_GALLOVIC/RIKsrf_FUSION_1ER_MARS/src-RIKsrf/RIKsrf2

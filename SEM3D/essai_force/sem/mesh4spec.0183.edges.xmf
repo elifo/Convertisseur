@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid name="edges.0183">
+      <Topology Type="Polyline" NumberOfElements="21969">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="21969 2">
+mesh4spec.0183.h5:/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7843 3">
+mesh4spec.0183.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+      <Attribute Name="FDom" Center="Cell" AttributeType="Scalar" Dimensions="21969">
+        <DataItem Format="HDF" Datatype="Integer" Dimensions="21969">
+mesh4spec.0183.h5:/edges_dom
+        </DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

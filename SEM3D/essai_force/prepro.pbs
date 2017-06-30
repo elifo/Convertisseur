@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -S /bin/bash
+#PBS -N mesh_NAPA
+#PBS -o output_mesh.txt
+#PBS -j oe
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=1:mpiprocs=1
+#PBS -P omaha
+#PBS -m e -M elif.oral@centralesupelec.fr
+
+#chargement des modules
+module purge
+module load intel-compilers/16.0.3
+module load intel-mkl/11.3.3
+module load intel-mpi/5.1.2
+module load python/2.7.12
+module load phdf5/1.8.17-IntelMPI
+module load fftw/3.3.4
+
+#On se place dans le repertoire depouis lequel le job a ete soumis
+cd $PBS_O_WORKDIR
+
+mpirun -np 1 /home/orale/SEM/build/MESH/mesher<mesh.input
+
+mkdir sem
+mv mesh4spec* ./sem

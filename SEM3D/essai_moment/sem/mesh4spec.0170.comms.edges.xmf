@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+  <Grid name="comms.0170" GridType="Collection" CollectionType="Spatial">
+    <Grid name="comms.0170.0168.e">
+      <Topology Type="Polyline" NumberOfElements="378">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="378 2">
+mesh4spec.0170.h5:/Proc0000/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="378">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="378">
+mesh4spec.0170.h5:/Proc0000/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0169.e">
+      <Topology Type="Polyline" NumberOfElements="711">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="711 2">
+mesh4spec.0170.h5:/Proc0001/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="711">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="711">
+mesh4spec.0170.h5:/Proc0001/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0171.e">
+      <Topology Type="Polyline" NumberOfElements="949">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="949 2">
+mesh4spec.0170.h5:/Proc0002/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="949">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="949">
+mesh4spec.0170.h5:/Proc0002/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0173.e">
+      <Topology Type="Polyline" NumberOfElements="780">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="780 2">
+mesh4spec.0170.h5:/Proc0003/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="780">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="780">
+mesh4spec.0170.h5:/Proc0003/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0174.e">
+      <Topology Type="Polyline" NumberOfElements="44">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="44 2">
+mesh4spec.0170.h5:/Proc0004/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="44">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="44">
+mesh4spec.0170.h5:/Proc0004/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0209.e">
+      <Topology Type="Polyline" NumberOfElements="648">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="648 2">
+mesh4spec.0170.h5:/Proc0005/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="648">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="648">
+mesh4spec.0170.h5:/Proc0005/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0210.e">
+      <Topology Type="Polyline" NumberOfElements="295">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="295 2">
+mesh4spec.0170.h5:/Proc0006/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="295">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="295">
+mesh4spec.0170.h5:/Proc0006/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+    <Grid name="comms.0170.0211.e">
+      <Topology Type="Polyline" NumberOfElements="101">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="101 2">
+mesh4spec.0170.h5:/Proc0007/edges_def
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7908 3">
+mesh4spec.0170.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+        <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="101">
+          <DataItem Format="HDF" Datatype="Integer" Dimensions="101">
+mesh4spec.0170.h5:/Proc0007/edges_dom
+          </DataItem>
+        </Attribute>
+    </Grid>
+  </Grid>
+  </Domain>
+</Xdmf>

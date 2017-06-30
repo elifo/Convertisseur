@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd">
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid name="mesh.0008">
+      <Topology Type="Hexahedron" NumberOfElements="6455">
+        <DataItem Format="HDF" Datatype="Int" Dimensions="6455 8">
+mesh4spec.0008.h5:/elements
+        </DataItem>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataItem Format="HDF" Datatype="Float" Precision="8" Dimensions="7885 3">
+mesh4spec.0008.h5:/local_nodes
+        </DataItem>
+      </Geometry>
+      <Attribute Name="Mat" Center="Cell" AttributeType="Scalar" Dimensions="6455">
+        <DataItem Format="HDF" Datatype="Integer" Dimensions="6455">
+mesh4spec.0008.h5:/material
+        </DataItem>
+      </Attribute>
+      <Attribute Name="Dom" Center="Cell" AttributeType="Scalar" Dimensions="6455">
+        <DataItem Format="HDF" Datatype="Integer" Dimensions="6455">
+mesh4spec.0008.h5:/domains
+        </DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

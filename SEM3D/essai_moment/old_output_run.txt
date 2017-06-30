@@ -1,0 +1,1306 @@
+ 
+ ****************************************************************************
+ ****************************************************************************
+ ****************************************************************************
+ **************************                          ************************
+ **************************     SEM - 3D VERSION     ************************
+ **************************                          ************************
+ ****************************************************************************
+ ****************************************************************************
+ ****************************************************************************
+ 
+ 
+ 
+ ****************************************************************************
+ ********************                                     *******************
+ ********************      RUN PREPARATION : INPUT DATA,  *******************
+ ********************     ELEMENTAL AND GLOBAL MACHINERY  *******************
+ ********************                                     *******************
+ ****************************************************************************
+ 
+ --> CREATING OUTPUT DIRECTORIES
+        Warning: path './prot' already exists
+        Warning: path '.' already exists
+        Warning: path './mat' already exists
+ --> READING INPUT PARAMETERS AND DATA
+Configuration SEM
+Schema en acceleration: 0
+Schema en vitesse: 1
+Duree simulation: 5.000000
+Newmark: alpha=0.500000 beta=0.500000 gamma=1.000000
+Fichier maillage: 'mesh4spec'
+Modele : 0
+Anisotropy : 0
+Fichier materiau: 'material.input'
+Sauv. Traces : 1
+Sauv. Snap   : 0
+Fichier stations: '(null)'
+Snap interval : 1.000000
+Snap selection : 0x12508b0
+out variables : (0,0,0,1,1,1,0,0,0,0,0)
+Nonlinear analysis : 0
+ Attenuation SLS =           0
+          period =  0.000000000000000E+000
+            band =  0.000000000000000E+000  0.000000000000000E+000
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+   --> Propagation in solid media.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+ 
+ 
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+ 
+ 
+ 
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+ 
+error: 2 - No such file or directory
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ Mesh read correctly, elements per proc:
+00000:  6658  6461  6294  6675  6293  6527  6662  6469
+00008:  6455  6668  6667  6676  6300  6650  6518  6501
+00016:  6459  6296  6601  6293  6378  6565  6326  6667
+ 
+ 
+00024:  6675  6650  6359  6636  6293  6657  6405  6408
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+00032:  6424  6433  6614  6372  6364  6359  6467  6452
+00040:  6676  6582  6526  6661  6566  6403  6636  6293
+00048:  6321  6321  6659  6358  6484  6451  6537  6655
+00056:  6343  6634  6515  6454  6466  6299  6629  6301
+00064:  6494  6470  6487  6596  6396  6374  6675  6387
+00072:  6676  6546  6642  6523  6296  6368  6675  6673
+00080:  6487  6569  6504  6293  6532  6360  6516  6392
+00088:  6368  6551  6390  6395  6293  6672  6507  6364
+00096:  6366  6352  6461  6352  6293  6432  6309  6662
+00104:  6673  6668  6676  6293  6300  6512  6521  6518
+00112:  6676  6540  6293  6293  6401  6497  6497  6516
+00120:  6622  6635  6488  6508  6315  6636  6346  6602
+00128:  6293  6295  6498  6373  6648  6620  6293  6449
+00136:  6614  6334  6297  6597  6356  6379  6382  6293
+00144:  6653  6657  6309  6661  6646  6619  6507  6428
+00152:  6355  6633  6415  6415  6676  6293  6676  6294
+00160:  6549  6555  6497  6410  6478  6520  6440  6625
+00168:  6296  6294  6423  6447  6303  6296  6301  6676
+00176:  6305  6640  6672  6675  6308  6307  6554  6360
+00184:  6294  6347  6504  6489  6420  6676  6422  6299
+00192:  6565  6616  6676  6414  6293  6642  6440  6608
+00200:  6518  6566  6311  6293  6298  6642  6657  6651
+00208:  6641  6676  6293  6410  6635  6641  6401  6652
+ read material file : ./material.input
+ 
+ 
+Error opening file : 'material.spec'
+error: 2 - No such file or directory
+ --> DEFINING A GLOBAL NUMBERING FOR COLLOCATION POINTS
+ --> ALLOCATING FIELDS
+ INFO - solid domain :         6658  elements and      1482547  ngll pts
+ --> COMPUTING SHAPE FUNCTIONS AND THEIR DERIVATIVES
+ --> COMPUTING MASS MATRIX AND INTERNAL FORCES COEFFICIENTS 
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ Tdomain%use_avg =  F
+ dt_loc  7.743847095484487E-003
+ f_max  0.502606836687832     
+ For Courant =  0.300000000000000       the time step is now 
+  7.743847095484487E-003  2.323154128645346E-003
+ --> COMPUTING SOURCE PARAMETERS 
+ DRIVE_SEM source loop nsrc =            0
+ DRIVE_SEM source loop nsrc =            0
+ EXTENDED FAULT
+ DRIVE_SEM source loop nsrc =            1
+ EXTENDED FAULT
+ EXTENDED FAULT
+ 
+ 
+ ****************************************************************************
+ *****************                                          *****************
+ *****************  INITIALIZATION OF IN/OUT INTERACTIONS:  *****************
+ *****************     RESTART, SNAPSHOTS, RECEIVERS        *****************
+ *****************                                          *****************
+ ****************************************************************************
+ 
+Capteur:SC3D_0002 on proc   101 in elem    324 at   1.0000, -0.9973,  1.0000 in domain 4
+Capteur:SC3D_0001 on proc    94 in elem    420 at  -0.9973,  1.0000,  1.0000 in domain 4
+ 
+ 
+ ****************************************************************************
+ ************************                                 *******************
+ ************************        TIME STEPPING            *******************
+ ************************                                 *******************
+ ****************************************************************************
+ 
+ --> Duration of the run:    5.00000000000000     
+ --> Time step size:   2.323154128645346E-003
+ --> Number of time steps:         2152
+ 
+Capteur:SC3D_0000 on proc   101 in elem    312 at   1.0000,  1.0000,  1.0000 in domain 4
+  Iteration  =             0     temps  =   0.000000000000000E+000
+  Iteration  =            20     temps  =   4.646308257290691E-002
+  Iteration  =            40     temps  =   9.292616514581391E-002
+  Iteration  =            60     temps  =   0.139389247718721     
+  Iteration  =            80     temps  =   0.185852330291628     
+  Iteration  =           100     temps  =   0.232315412864534     
+  Iteration  =           120     temps  =   0.278778495437441     
+  Iteration  =           140     temps  =   0.325241578010349     
+  Iteration  =           160     temps  =   0.371704660583256     
+  Iteration  =           180     temps  =   0.418167743156163     
+  Iteration  =           200     temps  =   0.464630825729071     
+  Iteration  =           220     temps  =   0.511093908301978     
+  Iteration  =           240     temps  =   0.557556990874885     
+  Iteration  =           260     temps  =   0.604020073447793     
+  Iteration  =           280     temps  =   0.650483156020700     
+  Iteration  =           300     temps  =   0.696946238593607     
+  Iteration  =           320     temps  =   0.743409321166515     
+  Iteration  =           340     temps  =   0.789872403739422     
+  Iteration  =           360     temps  =   0.836335486312329     
+  Iteration  =           380     temps  =   0.882798568885237     
+  Iteration  =           400     temps  =   0.929261651458144     
+  Iteration  =           420     temps  =   0.975724734031051     
+  Iteration  =           440     temps  =    1.02218781660396     
+  Iteration  =           460     temps  =    1.06865089917686     
+  Iteration  =           480     temps  =    1.11511398174977     
+  Iteration  =           500     temps  =    1.16157706432267     
+  Iteration  =           520     temps  =    1.20804014689558     
+  Iteration  =           540     temps  =    1.25450322946848     
+  Iteration  =           560     temps  =    1.30096631204139     
+  Iteration  =           580     temps  =    1.34742939461429     
+  Iteration  =           600     temps  =    1.39389247718720     
+  Iteration  =           620     temps  =    1.44035555976010     
+  Iteration  =           640     temps  =    1.48681864233301     
+  Iteration  =           660     temps  =    1.53328172490591     
+  Iteration  =           680     temps  =    1.57974480747882     
+  Iteration  =           700     temps  =    1.62620789005172     
+  Iteration  =           720     temps  =    1.67267097262463     
+  Iteration  =           740     temps  =    1.71913405519753     
+  Iteration  =           760     temps  =    1.76559713777044     
+  Iteration  =           780     temps  =    1.81206022034334     
+  Iteration  =           800     temps  =    1.85852330291625     
+  Iteration  =           820     temps  =    1.90498638548915     
+  Iteration  =           840     temps  =    1.95144946806206     
+  Iteration  =           860     temps  =    1.99791255063496     
+  Iteration  =           880     temps  =    2.04437563320787     
+  Iteration  =           900     temps  =    2.09083871578078     
+  Iteration  =           920     temps  =    2.13730179835369     
+  Iteration  =           940     temps  =    2.18376488092660     
+  Iteration  =           960     temps  =    2.23022796349951     
+  Iteration  =           980     temps  =    2.27669104607242     
+  Iteration  =          1000     temps  =    2.32315412864533     
+  Iteration  =          1020     temps  =    2.36961721121824     
+  Iteration  =          1040     temps  =    2.41608029379115     
+  Iteration  =          1060     temps  =    2.46254337636406     
+  Iteration  =          1080     temps  =    2.50900645893697     
+  Iteration  =          1100     temps  =    2.55546954150988     
+  Iteration  =          1120     temps  =    2.60193262408279     
+  Iteration  =          1140     temps  =    2.64839570665570     
+  Iteration  =          1160     temps  =    2.69485878922861     
+  Iteration  =          1180     temps  =    2.74132187180152     
+  Iteration  =          1200     temps  =    2.78778495437443     
+  Iteration  =          1220     temps  =    2.83424803694734     
+  Iteration  =          1240     temps  =    2.88071111952025     
+  Iteration  =          1260     temps  =    2.92717420209316     
+  Iteration  =          1280     temps  =    2.97363728466607     
+  Iteration  =          1300     temps  =    3.02010036723897     
+  Iteration  =          1320     temps  =    3.06656344981188     
+  Iteration  =          1340     temps  =    3.11302653238479     
+  Iteration  =          1360     temps  =    3.15948961495770     
+  Iteration  =          1380     temps  =    3.20595269753061     
+  Iteration  =          1400     temps  =    3.25241578010352     
+  Iteration  =          1420     temps  =    3.29887886267643     
+  Iteration  =          1440     temps  =    3.34534194524934     
+  Iteration  =          1460     temps  =    3.39180502782225     
+  Iteration  =          1480     temps  =    3.43826811039516     
+  Iteration  =          1500     temps  =    3.48473119296807     
+  Iteration  =          1520     temps  =    3.53119427554098     
+  Iteration  =          1540     temps  =    3.57765735811389     
+  Iteration  =          1560     temps  =    3.62412044068680     
+  Iteration  =          1580     temps  =    3.67058352325971     
+  Iteration  =          1600     temps  =    3.71704660583262     
+  Iteration  =          1620     temps  =    3.76350968840553     
+  Iteration  =          1640     temps  =    3.80997277097844     
+  Iteration  =          1660     temps  =    3.85643585355135     
+  Iteration  =          1680     temps  =    3.90289893612426     
+  Iteration  =          1700     temps  =    3.94936201869717     
+  Iteration  =          1720     temps  =    3.99582510127007     
+  Iteration  =          1740     temps  =    4.04228818384298     
+  Iteration  =          1760     temps  =    4.08875126641589     
+  Iteration  =          1780     temps  =    4.13521434898880     
+  Iteration  =          1800     temps  =    4.18167743156171     
+  Iteration  =          1820     temps  =    4.22814051413462     
+  Iteration  =          1840     temps  =    4.27460359670753     
+  Iteration  =          1860     temps  =    4.32106667928044     
+  Iteration  =          1880     temps  =    4.36752976185335     
+  Iteration  =          1900     temps  =    4.41399284442626     
+  Iteration  =          1920     temps  =    4.46045592699917     
+  Iteration  =          1940     temps  =    4.50691900957208     
+  Iteration  =          1960     temps  =    4.55338209214499     
+  Iteration  =          1980     temps  =    4.59984517471790     
+  Iteration  =          2000     temps  =    4.64630825729081     
+  Iteration  =          2020     temps  =    4.69277133986372     
+  Iteration  =          2040     temps  =    4.73923442243663     
+  Iteration  =          2060     temps  =    4.78569750500954     
+  Iteration  =          2080     temps  =    4.83216058758245     
+  Iteration  =          2100     temps  =    4.87862367015536     
+  Iteration  =          2120     temps  =    4.92508675272827     
+  Iteration  =          2140     temps  =    4.97154983530118     
+--> SEM : protection at iteration and time :    2151   4.997105
+ --> SEM INTERRUPTED, iteration=         2151
+ --> DEALLOCATING DOMAIN.
+ fin du calcul sur processeurs 
