@@ -1,23 +1,20 @@
-Extended-source modeling in SEM3D starting from Ruiz's Integral Kinematic source model
+# Extended-source modeling in SEM3D starting from Ruiz's Integral Kinematic source model
+
+* This repository includes the files necessary to prepare a finite source model that can be used as input for the 3D spectral element code of SEM3D (of Ecole Centrale Paris, IPGP and CEA).
+
+* For the kinematic source modeling, we use the RIK model developed by Ruiz et al. (2011) and further modified by Gallovic (2016). The asperities (or seismic sub-sources) have a fractal distribution that can be adjusted to a pre-defined slip inversion data. 
+
+* More details in [Manual](https://github.com/elifo/Convertisseur/blob/master/DOC/manual.pdf)
+
+## Content
+* The kinematic source model generation in [RIK_MODEL](https://github.com/elifo/Convertisseur/tree/master/RIK_MODEL)
+* Conversion of RIK model outputs for SEM3D format (hdf5 files) in [Convertisseur](https://github.com/elifo/Convertisseur/tree/master/CONVERTISSEUR)
+* Example for extended-source definition in SEM3D input file (`input.spec`) in [SEM3D](https://github.com/elifo/Convertisseur/tree/master/SEM3D)
 
 
-We model near source effects using the spectral element method (SEM) including topographical 
-effects of the 3D propagation medium. For the kinematic source modeling, the model developed 
-by Ruiz et al. (2011) and further modified by Gallovic (2016) is used. This method allows 
-taking into account frequency-dependent directivity effects. The asperities have a fractal 
-distribution that may follow a given inverted slip distribution. We implement the extended 
-fault model into SEM3D code of Ecole Centrale Paris to study 3D wave propagation.
+## Related publication
+* Oral, E., Gatti, F. and Lopez‐Caballero, F., 2018, June. 3d spectral element modeling of near source effects including kinematic rupture and finite-fault effects.
 
-The objective of this manual is to instruct the users how to use extended-source modeling 
-in SEM3D code of Ecole Centrale Paris. 
 
-It includes the folders of RIK_MODEL, CONVERTISSEUR and SEM3D for each step of the procedure.
-	1) In RIK_model, the kinematic source model is generated for given seismic data. 
-	2) In Convertisseur, necessary input files for SEM3D (hdf5 files) are created for simulations
-	   of SEM3D code.
-	3) In SEM3D, extended-source block is defined (in input.spec file) with created input files.  
+For any questions, you can write to me; Check out my email address [here](https://elifo.github.io).
 
-For any further information, please contact Elif Oral by
-elif.oral@centralesupelec.fr
-
-#
