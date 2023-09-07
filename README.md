@@ -7,7 +7,7 @@
 * More details in [Manual](https://github.com/elifo/Convertisseur/blob/master/DOC/manual.pdf)
 
 ## Content
-* The kinematic source model generation in [RIK_MODEL](https://github.com/elifo/Convertisseur/tree/master/RIK_MODEL)
+* The kinematic source model generation in [RIK_MODEL](https://github.com/elifo/RIKsrf/tree/martinique)
 * Conversion of RIK model outputs for SEM3D format (hdf5 files) in [Convertisseur](https://github.com/elifo/Convertisseur/tree/master/CONVERTISSEUR)
 * Example for extended-source definition in SEM3D input file (`input.spec`) in [SEM3D](https://github.com/elifo/Convertisseur/tree/master/SEM3D)
 
